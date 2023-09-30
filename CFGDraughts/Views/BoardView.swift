@@ -11,29 +11,53 @@ struct BoardView: View {
     var body: some View {
         VStack{
             ForEach(0..<Utils.maxCells) { row in
-                HStack{
+                if (row.isMultiple(of: 2)) {
                     
-                    ForEach(0..<Utils.maxCells){ cell in
+                    HStack{
                         
-                        if (cell.isMultiple(of: 2)){
-                            Button(action: {
-                                print("dark button tapped")
-                            }){                            Image(systemName: "square.fill")
-                                .foregroundColor(Utils.colorDarkCell)}
-                        }
-                        else {
-                            Button(action: {
-                                print("light button tapped")
-                            }){
-                                Image(systemName: "square.fill")
-                                    .foregroundColor(Utils.colorLightCell)
+                        ForEach(0..<Utils.maxCells){ cell in
+                            
+                            if (cell.isMultiple(of: 2)){
+                                Button(action: {
+                                    print("dark button tapped")
+                                }){                            Image(systemName: "square.fill")
+                                    .foregroundColor(Utils.colorDarkCell)}
+                            }
+                            else {
+                                Button(action: {
+                                    print("light button tapped")
+                                }){
+                                    Image(systemName: "square.fill")
+                                        .foregroundColor(Utils.colorLightCell)
+                                }
                             }
                         }
                     }
-                    
                 }
+                        
+                        else {
+                            HStack{
+                                
+                                ForEach(0..<Utils.maxCells){ cell in
+                                    
+                                    if (!cell.isMultiple(of: 2)){
+                                        Button(action: {
+                                            print("dark button tapped")
+                                        }){                            Image(systemName: "square.fill")
+                                            .foregroundColor(Utils.colorDarkCell)}
+                                    }
+                                    else {
+                                        Button(action: {
+                                            print("light button tapped")
+                                        }){
+                                            Image(systemName: "square.fill")
+                                                .foregroundColor(Utils.colorLightCell)
+                                        }
+                                    }
+                                }
+                            }
+                        }
                 }
-                
             }
         }
     }
