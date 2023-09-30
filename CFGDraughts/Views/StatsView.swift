@@ -21,8 +21,7 @@ struct StatsView: View {
                     Text("Username:")
                     TextField("username", text: $userProfile.username)
                         .onSubmit {
-                            UserDefaults.standard.set(userProfile.username, forKey: "username")
-                            UserDefaults.standard.set(userProfile.gamesAttempted, forKey: "gamesAttempted")
+                            saveUserProfile()
                         }
                 }
                 HStack{
@@ -32,19 +31,41 @@ struct StatsView: View {
             }
             
         }.onAppear{
-            if(UserDefaults.standard.object(forKey: "username") != nil) {
-                userProfile.username = UserDefaults.standard.string(forKey: "username")!
-            }
-            
-            if(UserDefaults.standard.object(forKey: "gamesAttempted") != nil) {
-                userProfile.gamesAttempted = UserDefaults.standard.integer(forKey: "gamesAttempted")
-            }
+            loadUserProfile()
+        }
+        
+    }
+    
+    func saveUserProfile() {
+        UserDefaults.standard.set(userProfile.username, forKey: "username")
+        UserDefaults.standard.set(userProfile.gamesAttempted, forKey: "gamesAttempted")
+    }
+    
+    func loadUserProfile() {
+        loadUserName()
+        loadGamesAttempted()
+    }
+    
+    
+    
+    func loadUserName() {
+        if(UserDefaults.standard.object(forKey: "username") != nil) {
+            userProfile.username = UserDefaults.standard.string(forKey: "username")!
+        }
+        
+    }
+    
+    func loadGamesAttempted() {
+        if(UserDefaults.standard.object(forKey: "gamesAttempted") != nil) {
+            userProfile.gamesAttempted = UserDefaults.standard.integer(forKey: "gamesAttempted")
         }
     }
 }
-
-struct StatsView_Previews: PreviewProvider {
-    static var previews: some View {
-        StatsView()
+    
+    
+    struct StatsView_Previews: PreviewProvider {
+        static var previews: some View {
+            StatsView()
+        }
     }
-}
+
