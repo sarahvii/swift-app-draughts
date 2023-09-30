@@ -8,8 +8,13 @@
 import SwiftUI
 
 struct StatsView: View {
+    var userProfile: UserProfile = UserProfile(username: "Sarah", gamesAttempted: 0)
+    
     var body: some View {
-        Text("Stats View")
+        VStack{
+            Text(userProfile.username)
+            Text("\(userProfile.gamesAttempted)")
+        }
     }
 }
 

@@ -18,6 +18,7 @@
 		B29604252AC81C720096F48E /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29604242AC81C720096F48E /* StatsView.swift */; };
 		B29604272AC81CA20096F48E /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29604262AC81CA20096F48E /* BoardView.swift */; };
 		B29604292AC823540096F48E /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29604282AC823540096F48E /* Utils.swift */; };
+		B296042B2AC831D90096F48E /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B296042A2AC831D90096F48E /* UserProfile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		B29604242AC81C720096F48E /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
 		B29604262AC81CA20096F48E /* BoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardView.swift; sourceTree = "<group>"; };
 		B29604282AC823540096F48E /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		B296042A2AC831D90096F48E /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +104,7 @@
 		B29603F52AC7875E0096F48E /* CFGDraughts */ = {
 			isa = PBXGroup;
 			children = (
-				B29604212AC815900096F48E /* Modules */,
+				B29604212AC815900096F48E /* Models */,
 				B29603F62AC7875E0096F48E /* CFGDraughtsApp.swift */,
 				B29604202AC8156D0096F48E /* Views */,
 				B29603FA2AC787600096F48E /* Assets.xcassets */,
@@ -147,12 +149,13 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
-		B29604212AC815900096F48E /* Modules */ = {
+		B29604212AC815900096F48E /* Models */ = {
 			isa = PBXGroup;
 			children = (
 				B29604282AC823540096F48E /* Utils.swift */,
+				B296042A2AC831D90096F48E /* UserProfile.swift */,
 			);
-			path = Modules;
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -287,6 +290,7 @@
 			files = (
 				B29604252AC81C720096F48E /* StatsView.swift in Sources */,
 				B29604232AC81B690096F48E /* GameModeView.swift in Sources */,
+				B296042B2AC831D90096F48E /* UserProfile.swift in Sources */,
 				B29604272AC81CA20096F48E /* BoardView.swift in Sources */,
 				B29603F92AC7875E0096F48E /* WelcomeView.swift in Sources */,
 				B29603F72AC7875E0096F48E /* CFGDraughtsApp.swift in Sources */,
