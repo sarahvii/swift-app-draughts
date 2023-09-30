@@ -1,13 +1,13 @@
 //
-//  CFGHelloUITestsLaunchTests.swift
-//  CFGHelloUITests
+//  CFGDraughtsUITestsLaunchTests.swift
+//  CFGDraughtsUITests
 //
 //  Created by Sarah Smith on 29/09/2023.
 //
 
 import XCTest
 
-final class CFGHelloUITestsLaunchTests: XCTestCase {
+final class CFGDraughtsUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

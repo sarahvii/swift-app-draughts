@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B29603F72AC7875E0096F48E /* CFGHelloApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29603F62AC7875E0096F48E /* CFGHelloApp.swift */; };
-		B29603F92AC7875E0096F48E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29603F82AC7875E0096F48E /* ContentView.swift */; };
+		B29603F72AC7875E0096F48E /* CFGDraughtsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29603F62AC7875E0096F48E /* CFGDraughtsApp.swift */; };
+		B29603F92AC7875E0096F48E /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29603F82AC7875E0096F48E /* WelcomeView.swift */; };
 		B29603FB2AC787600096F48E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B29603FA2AC787600096F48E /* Assets.xcassets */; };
 		B29603FE2AC787600096F48E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B29603FD2AC787600096F48E /* Preview Assets.xcassets */; };
-		B29604082AC787600096F48E /* CFGHelloTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29604072AC787600096F48E /* CFGHelloTests.swift */; };
-		B29604122AC787600096F48E /* CFGHelloUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29604112AC787600096F48E /* CFGHelloUITests.swift */; };
-		B29604142AC787600096F48E /* CFGHelloUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29604132AC787600096F48E /* CFGHelloUITestsLaunchTests.swift */; };
+		B29604082AC787600096F48E /* CFGDraughtsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29604072AC787600096F48E /* CFGDraughtsTests.swift */; };
+		B29604122AC787600096F48E /* CFGDraughtsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29604112AC787600096F48E /* CFGDraughtsUITests.swift */; };
+		B29604142AC787600096F48E /* CFGDraughtsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29604132AC787600096F48E /* CFGDraughtsUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,16 +34,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B29603F32AC7875E0096F48E /* CFGHello.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CFGHello.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B29603F62AC7875E0096F48E /* CFGHelloApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFGHelloApp.swift; sourceTree = "<group>"; };
-		B29603F82AC7875E0096F48E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B29603F32AC7875E0096F48E /* CFGDraughts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CFGDraughts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B29603F62AC7875E0096F48E /* CFGDraughtsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFGDraughtsApp.swift; sourceTree = "<group>"; };
+		B29603F82AC7875E0096F48E /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		B29603FA2AC787600096F48E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B29603FD2AC787600096F48E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		B29604032AC787600096F48E /* CFGHelloTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CFGHelloTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B29604072AC787600096F48E /* CFGHelloTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFGHelloTests.swift; sourceTree = "<group>"; };
-		B296040D2AC787600096F48E /* CFGHelloUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CFGHelloUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B29604112AC787600096F48E /* CFGHelloUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFGHelloUITests.swift; sourceTree = "<group>"; };
-		B29604132AC787600096F48E /* CFGHelloUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFGHelloUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B29604032AC787600096F48E /* CFGDraughtsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CFGDraughtsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B29604072AC787600096F48E /* CFGDraughtsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFGDraughtsTests.swift; sourceTree = "<group>"; };
+		B296040D2AC787600096F48E /* CFGDraughtsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CFGDraughtsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B29604112AC787600096F48E /* CFGDraughtsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFGDraughtsUITests.swift; sourceTree = "<group>"; };
+		B29604132AC787600096F48E /* CFGDraughtsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFGDraughtsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,9 +74,9 @@
 		B29603EA2AC7875E0096F48E = {
 			isa = PBXGroup;
 			children = (
-				B29603F52AC7875E0096F48E /* CFGHello */,
-				B29604062AC787600096F48E /* CFGHelloTests */,
-				B29604102AC787600096F48E /* CFGHelloUITests */,
+				B29603F52AC7875E0096F48E /* CFGDraughts */,
+				B29604062AC787600096F48E /* CFGDraughtsTests */,
+				B29604102AC787600096F48E /* CFGDraughtsUITests */,
 				B29603F42AC7875E0096F48E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -84,22 +84,23 @@
 		B29603F42AC7875E0096F48E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B29603F32AC7875E0096F48E /* CFGHello.app */,
-				B29604032AC787600096F48E /* CFGHelloTests.xctest */,
-				B296040D2AC787600096F48E /* CFGHelloUITests.xctest */,
+				B29603F32AC7875E0096F48E /* CFGDraughts.app */,
+				B29604032AC787600096F48E /* CFGDraughtsTests.xctest */,
+				B296040D2AC787600096F48E /* CFGDraughtsUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B29603F52AC7875E0096F48E /* CFGHello */ = {
+		B29603F52AC7875E0096F48E /* CFGDraughts */ = {
 			isa = PBXGroup;
 			children = (
-				B29603F62AC7875E0096F48E /* CFGHelloApp.swift */,
-				B29603F82AC7875E0096F48E /* ContentView.swift */,
+				B29604212AC815900096F48E /* Modules */,
+				B29603F62AC7875E0096F48E /* CFGDraughtsApp.swift */,
+				B29604202AC8156D0096F48E /* Views */,
 				B29603FA2AC787600096F48E /* Assets.xcassets */,
 				B29603FC2AC787600096F48E /* Preview Content */,
 			);
-			path = CFGHello;
+			path = CFGDraughts;
 			sourceTree = "<group>";
 		};
 		B29603FC2AC787600096F48E /* Preview Content */ = {
@@ -110,29 +111,44 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		B29604062AC787600096F48E /* CFGHelloTests */ = {
+		B29604062AC787600096F48E /* CFGDraughtsTests */ = {
 			isa = PBXGroup;
 			children = (
-				B29604072AC787600096F48E /* CFGHelloTests.swift */,
+				B29604072AC787600096F48E /* CFGDraughtsTests.swift */,
 			);
-			path = CFGHelloTests;
+			path = CFGDraughtsTests;
 			sourceTree = "<group>";
 		};
-		B29604102AC787600096F48E /* CFGHelloUITests */ = {
+		B29604102AC787600096F48E /* CFGDraughtsUITests */ = {
 			isa = PBXGroup;
 			children = (
-				B29604112AC787600096F48E /* CFGHelloUITests.swift */,
-				B29604132AC787600096F48E /* CFGHelloUITestsLaunchTests.swift */,
+				B29604112AC787600096F48E /* CFGDraughtsUITests.swift */,
+				B29604132AC787600096F48E /* CFGDraughtsUITestsLaunchTests.swift */,
 			);
-			path = CFGHelloUITests;
+			path = CFGDraughtsUITests;
+			sourceTree = "<group>";
+		};
+		B29604202AC8156D0096F48E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B29603F82AC7875E0096F48E /* WelcomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B29604212AC815900096F48E /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modules;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B29603F22AC7875E0096F48E /* CFGHello */ = {
+		B29603F22AC7875E0096F48E /* CFGDraughts */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B29604172AC787600096F48E /* Build configuration list for PBXNativeTarget "CFGHello" */;
+			buildConfigurationList = B29604172AC787600096F48E /* Build configuration list for PBXNativeTarget "CFGDraughts" */;
 			buildPhases = (
 				B29603EF2AC7875E0096F48E /* Sources */,
 				B29603F02AC7875E0096F48E /* Frameworks */,
@@ -142,14 +158,14 @@
 			);
 			dependencies = (
 			);
-			name = CFGHello;
+			name = CFGDraughts;
 			productName = CFGHello;
-			productReference = B29603F32AC7875E0096F48E /* CFGHello.app */;
+			productReference = B29603F32AC7875E0096F48E /* CFGDraughts.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B29604022AC787600096F48E /* CFGHelloTests */ = {
+		B29604022AC787600096F48E /* CFGDraughtsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B296041A2AC787600096F48E /* Build configuration list for PBXNativeTarget "CFGHelloTests" */;
+			buildConfigurationList = B296041A2AC787600096F48E /* Build configuration list for PBXNativeTarget "CFGDraughtsTests" */;
 			buildPhases = (
 				B29603FF2AC787600096F48E /* Sources */,
 				B29604002AC787600096F48E /* Frameworks */,
@@ -160,14 +176,14 @@
 			dependencies = (
 				B29604052AC787600096F48E /* PBXTargetDependency */,
 			);
-			name = CFGHelloTests;
+			name = CFGDraughtsTests;
 			productName = CFGHelloTests;
-			productReference = B29604032AC787600096F48E /* CFGHelloTests.xctest */;
+			productReference = B29604032AC787600096F48E /* CFGDraughtsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		B296040C2AC787600096F48E /* CFGHelloUITests */ = {
+		B296040C2AC787600096F48E /* CFGDraughtsUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B296041D2AC787600096F48E /* Build configuration list for PBXNativeTarget "CFGHelloUITests" */;
+			buildConfigurationList = B296041D2AC787600096F48E /* Build configuration list for PBXNativeTarget "CFGDraughtsUITests" */;
 			buildPhases = (
 				B29604092AC787600096F48E /* Sources */,
 				B296040A2AC787600096F48E /* Frameworks */,
@@ -178,9 +194,9 @@
 			dependencies = (
 				B296040F2AC787600096F48E /* PBXTargetDependency */,
 			);
-			name = CFGHelloUITests;
+			name = CFGDraughtsUITests;
 			productName = CFGHelloUITests;
-			productReference = B296040D2AC787600096F48E /* CFGHelloUITests.xctest */;
+			productReference = B296040D2AC787600096F48E /* CFGDraughtsUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -206,7 +222,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B29603EE2AC7875E0096F48E /* Build configuration list for PBXProject "CFGHello" */;
+			buildConfigurationList = B29603EE2AC7875E0096F48E /* Build configuration list for PBXProject "CFGDraughts" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -219,9 +235,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B29603F22AC7875E0096F48E /* CFGHello */,
-				B29604022AC787600096F48E /* CFGHelloTests */,
-				B296040C2AC787600096F48E /* CFGHelloUITests */,
+				B29603F22AC7875E0096F48E /* CFGDraughts */,
+				B29604022AC787600096F48E /* CFGDraughtsTests */,
+				B296040C2AC787600096F48E /* CFGDraughtsUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -257,8 +273,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B29603F92AC7875E0096F48E /* ContentView.swift in Sources */,
-				B29603F72AC7875E0096F48E /* CFGHelloApp.swift in Sources */,
+				B29603F92AC7875E0096F48E /* WelcomeView.swift in Sources */,
+				B29603F72AC7875E0096F48E /* CFGDraughtsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B29604082AC787600096F48E /* CFGHelloTests.swift in Sources */,
+				B29604082AC787600096F48E /* CFGDraughtsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +290,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B29604142AC787600096F48E /* CFGHelloUITestsLaunchTests.swift in Sources */,
-				B29604122AC787600096F48E /* CFGHelloUITests.swift in Sources */,
+				B29604142AC787600096F48E /* CFGDraughtsUITestsLaunchTests.swift in Sources */,
+				B29604122AC787600096F48E /* CFGDraughtsUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,12 +300,12 @@
 /* Begin PBXTargetDependency section */
 		B29604052AC787600096F48E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B29603F22AC7875E0096F48E /* CFGHello */;
+			target = B29603F22AC7875E0096F48E /* CFGDraughts */;
 			targetProxy = B29604042AC787600096F48E /* PBXContainerItemProxy */;
 		};
 		B296040F2AC787600096F48E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B29603F22AC7875E0096F48E /* CFGHello */;
+			target = B29603F22AC7875E0096F48E /* CFGDraughts */;
 			targetProxy = B296040E2AC787600096F48E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -416,7 +432,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"CFGHello/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"CFGDraughts/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -429,7 +445,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = CFG.CFGHello;
+				PRODUCT_BUNDLE_IDENTIFIER = CFG.CFGDraughts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -444,7 +460,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"CFGHello/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"CFGDraughts/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -457,7 +473,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = CFG.CFGHello;
+				PRODUCT_BUNDLE_IDENTIFIER = CFG.CFGDraughts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -480,7 +496,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CFGHello.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CFGHello";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CFGDraughts.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CFGDraughts";
 			};
 			name = Debug;
 		};
@@ -499,7 +515,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CFGHello.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CFGHello";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CFGDraughts.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CFGDraughts";
 			};
 			name = Release;
 		};
@@ -540,7 +556,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B29603EE2AC7875E0096F48E /* Build configuration list for PBXProject "CFGHello" */ = {
+		B29603EE2AC7875E0096F48E /* Build configuration list for PBXProject "CFGDraughts" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B29604152AC787600096F48E /* Debug */,
@@ -549,7 +565,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B29604172AC787600096F48E /* Build configuration list for PBXNativeTarget "CFGHello" */ = {
+		B29604172AC787600096F48E /* Build configuration list for PBXNativeTarget "CFGDraughts" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B29604182AC787600096F48E /* Debug */,
@@ -558,7 +574,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B296041A2AC787600096F48E /* Build configuration list for PBXNativeTarget "CFGHelloTests" */ = {
+		B296041A2AC787600096F48E /* Build configuration list for PBXNativeTarget "CFGDraughtsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B296041B2AC787600096F48E /* Debug */,
@@ -567,7 +583,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B296041D2AC787600096F48E /* Build configuration list for PBXNativeTarget "CFGHelloUITests" */ = {
+		B296041D2AC787600096F48E /* Build configuration list for PBXNativeTarget "CFGDraughtsUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B296041E2AC787600096F48E /* Debug */,

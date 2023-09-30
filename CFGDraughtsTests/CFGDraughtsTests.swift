@@ -1,12 +1,12 @@
 //
-//  CFGHelloTests.swift
-//  CFGHelloTests
+//  CFGDraughtsTests.swift
+//  CFGDraughtsTests
 //
 //  Created by Sarah Smith on 29/09/2023.
 //
 
 import XCTest
-@testable import CFGHello
+@testable import CFGDraughts
 
 final class CFGHelloTests: XCTestCase {
 
