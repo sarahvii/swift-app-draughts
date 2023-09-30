@@ -20,6 +20,10 @@ struct StatsView: View {
                 HStack{
                     Text("Username:")
                     TextField("username", text: $userProfile.username)
+                        .onSubmit {
+                            UserDefaults.standard.set(userProfile.username, forKey: "username")
+                            UserDefaults.standard.set(userProfile.gamesAttempted, forKey: "gamesAttempted")
+                        }
                 }
                 HStack{
                     Text("Games Attempted:")
@@ -27,6 +31,14 @@ struct StatsView: View {
                 }
             }
             
+        }.onAppear{
+            if(UserDefaults.standard.object(forKey: "username") != nil) {
+                userProfile.username = UserDefaults.standard.string(forKey: "username")!
+            }
+            
+            if(UserDefaults.standard.object(forKey: "gamesAttempted") != nil) {
+                userProfile.gamesAttempted = UserDefaults.standard.integer(forKey: "gamesAttempted")
+            }
         }
     }
 }
