@@ -9,28 +9,35 @@ import SwiftUI
 
 struct WelcomeView: View {
     var body: some View {
-        VStack {
-            Text("Draughts")
-                .font(.largeTitle)
-            Spacer()
-            VStack(alignment: .leading){
-                HStack{
-                    Image(systemName: "square.grid.3x3.square")
-                        .imageScale(.large)
-                        .foregroundColor(.purple)
-                    Text("Play")
+        NavigationStack {
+            VStack {
+                Text("Draughts")
+                    .font(.largeTitle)
+                Spacer()
+                VStack(alignment: .leading){
+                    NavigationLink(destination: GameModeView()) {
+                        HStack{
+                            Image(systemName: "square.grid.3x3.square")
+                                .imageScale(.large)
+                                .foregroundColor(.purple)
+                            Text("Play")
+                        }
+                    }
+                    NavigationLink(destination: StatsView()) {
+                        HStack{
+                            Image(systemName: "square.grid.3x3.square")
+                                .imageScale(.large)
+                                .foregroundColor(.purple)
+                            Text("Stats")
+                        }
+                    }
+
                 }
-                HStack{
-                    Image(systemName: "square.grid.3x3.square")
-                        .imageScale(.large)
-                        .foregroundColor(.purple)
-                    Text("Stats")
-                }
+                Spacer()
+                Text("CFG IOS App Dev MOOC")
             }
-            Spacer()
-            Text("CFG IOS App Dev MOOC")
+            .padding()
         }
-        .padding()
 
     }
 }
