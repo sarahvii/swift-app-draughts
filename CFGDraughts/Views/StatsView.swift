@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct StatsView: View {
-    var userProfile: UserProfile = UserProfile(username: "Sarah", gamesAttempted: 0)
+    @State var userProfile: UserProfile = UserProfile(username: "Sarah", gamesAttempted: 0)
     
     var body: some View {
         VStack {
@@ -16,12 +16,18 @@ struct StatsView: View {
             Text("\(userProfile.username)'s Stats")
                 .font(.title)
             
-            VStack{
-                Text(userProfile.username)
-                Text("\(userProfile.gamesAttempted)")
+            Form{
+                HStack{
+                    Text("Username:")
+                    TextField("username", text: $userProfile.username)
+                }
+                HStack{
+                    Text("Games Attempted:")
+                    Text("\(userProfile.gamesAttempted)")
+                }
             }
+            
         }
-
     }
 }
 
