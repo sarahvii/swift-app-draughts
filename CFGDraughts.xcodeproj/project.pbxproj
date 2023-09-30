@@ -17,6 +17,7 @@
 		B29604232AC81B690096F48E /* GameModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29604222AC81B690096F48E /* GameModeView.swift */; };
 		B29604252AC81C720096F48E /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29604242AC81C720096F48E /* StatsView.swift */; };
 		B29604272AC81CA20096F48E /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29604262AC81CA20096F48E /* BoardView.swift */; };
+		B29604292AC823540096F48E /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29604282AC823540096F48E /* Utils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		B29604222AC81B690096F48E /* GameModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModeView.swift; sourceTree = "<group>"; };
 		B29604242AC81C720096F48E /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
 		B29604262AC81CA20096F48E /* BoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardView.swift; sourceTree = "<group>"; };
+		B29604282AC823540096F48E /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +150,7 @@
 		B29604212AC815900096F48E /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				B29604282AC823540096F48E /* Utils.swift */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -287,6 +290,7 @@
 				B29604272AC81CA20096F48E /* BoardView.swift in Sources */,
 				B29603F92AC7875E0096F48E /* WelcomeView.swift in Sources */,
 				B29603F72AC7875E0096F48E /* CFGDraughtsApp.swift in Sources */,
+				B29604292AC823540096F48E /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
