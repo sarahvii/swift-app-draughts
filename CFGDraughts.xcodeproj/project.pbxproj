@@ -14,6 +14,8 @@
 		B29604082AC787600096F48E /* CFGDraughtsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29604072AC787600096F48E /* CFGDraughtsTests.swift */; };
 		B29604122AC787600096F48E /* CFGDraughtsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29604112AC787600096F48E /* CFGDraughtsUITests.swift */; };
 		B29604142AC787600096F48E /* CFGDraughtsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29604132AC787600096F48E /* CFGDraughtsUITestsLaunchTests.swift */; };
+		B29604232AC81B690096F48E /* GameModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29604222AC81B690096F48E /* GameModeView.swift */; };
+		B29604252AC81C720096F48E /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29604242AC81C720096F48E /* StatsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		B296040D2AC787600096F48E /* CFGDraughtsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CFGDraughtsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B29604112AC787600096F48E /* CFGDraughtsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFGDraughtsUITests.swift; sourceTree = "<group>"; };
 		B29604132AC787600096F48E /* CFGDraughtsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFGDraughtsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B29604222AC81B690096F48E /* GameModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModeView.swift; sourceTree = "<group>"; };
+		B29604242AC81C720096F48E /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +136,8 @@
 			isa = PBXGroup;
 			children = (
 				B29603F82AC7875E0096F48E /* WelcomeView.swift */,
+				B29604222AC81B690096F48E /* GameModeView.swift */,
+				B29604242AC81C720096F48E /* StatsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -273,6 +279,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B29604252AC81C720096F48E /* StatsView.swift in Sources */,
+				B29604232AC81B690096F48E /* GameModeView.swift in Sources */,
 				B29603F92AC7875E0096F48E /* WelcomeView.swift in Sources */,
 				B29603F72AC7875E0096F48E /* CFGDraughtsApp.swift in Sources */,
 			);

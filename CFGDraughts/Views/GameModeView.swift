@@ -1,42 +1,38 @@
 //
-//  ContentView.swift
+//  GameModeView.swift
 //  CFGDraughts
 //
-//  Created by Sarah Smith on 29/09/2023.
+//  Created by Sarah Smith on 30/09/2023.
 //
 
 import SwiftUI
 
-struct WelcomeView: View {
+struct GameModeView: View {
     var body: some View {
         VStack {
-            Text("Draughts")
-                .font(.largeTitle)
-            Spacer()
-            VStack(alignment: .leading){
+            Text("Game Mode")
+                .padding()
+
+            HStack{
                 HStack{
                     Image(systemName: "square.grid.3x3.square")
                         .imageScale(.large)
                         .foregroundColor(.purple)
-                    Text("Play")
+                    Text("Normal")
                 }
                 HStack{
-                    Image(systemName: "square.grid.3x3.square")
+                    Image(systemName: "timer")
                         .imageScale(.large)
                         .foregroundColor(.purple)
-                    Text("Stats")
+                    Text("Timed")
                 }
             }
-            Spacer()
-            Text("CFG IOS App Dev MOOC")
         }
-        .padding()
-
     }
 }
 
-struct WelcomeView_Previews: PreviewProvider {
+struct GameModeView_Previews: PreviewProvider {
     static var previews: some View {
-        WelcomeView()
+        GameModeView()
     }
 }
